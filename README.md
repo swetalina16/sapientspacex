@@ -24,3 +24,25 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+### API used
+
+API has been used for initial load :
+`https://api.spacexdata.com/v3/launches?limit=100`
+
+API used for successful launch of the rocket :
+https://api.spacexdata.com/v3/launches?launch_success=true
+
+API used for unsuccessful launch of the rocket :
+https://api.spacexdata.com/v3/launches?launch_success=false
+
+API used for successful landing of the rocket :
+https://api.spacexdata.com/v3/launches?land_success=true
+
+API used for unsuccessful landing of the rocket :
+https://api.spacexdata.com/v3/launches?land_success=false
+
+### Steps to run
+
+Install packages : npm i
+Start command : npm start
